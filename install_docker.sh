@@ -4,7 +4,7 @@
 apt update && apt upgrade -y
 
 # Benötigte Pakete installieren
-apt install curl sudo apt-transport-https ca-certificates gnupg-agent software-properties-common -y
+apt install apt-transport-https ca-certificates gnupg-agent software-properties-common -y
 
 # Docker-Repository zur Paketquelle hinzufügen
 curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/share/keyrings/docker.gpg
