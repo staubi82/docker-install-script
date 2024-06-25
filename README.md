@@ -5,7 +5,7 @@
 Um Docker und Docker Compose auf Debian zu installieren und zu konfigurieren, führen Sie das folgende Skript aus. Es erledigt alle notwendigen Schritte automatisch:
 
 ```bash
-bash -c "$(wget -qO- https://raw.githubusercontent.com/staubi82/docker-install/main/install_docker.sh)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/staubi82/docker-install-script/main/install_docker.sh)"
 ```
 
 #### 2. Manuelle Schritte zur Installation und Konfiguration
